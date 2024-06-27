@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav id="desktop-nav">
-        <div class="logo">Raymond Kong</div>
+    <nav id="nav">
+        <div class="logo"></div>
         <div>
             <ul class="nav-links">
                 <li><a href="#Home">Home</a></li>
@@ -17,21 +17,106 @@
             </ul>
         </div>
     </nav>
-    <nav id="mobile-nav">
-        <div class="logo">Raymond Kong</div>
-        <div class="menu">
-            <div class="icon" onclick="toggleMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
+
+    <section id="Home">
+        <div class="section__text">
+          <p class="section__text__p1">Hello, I'm</p>
+          <h1 class="title">Raymond Kong</h1>
+          <p class="section__text__p2">Software  Developer</p>
+          <div class="btn-container">
+          <a href="./assets/resume.pdf" download="Resume-Raymond_Kong">
+              <button class="btn btn-color-2">Download Resume</button>
+            </a>
+          </div>
+          <div id="socials-container">
+            <a href="https://www.linkedin.com/in/raymond-kong-779a7b254/" target="_blank">
+                <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" />
+            </a>
+            <a href="https://github.com/rkong04" target="_blank">
+                <img src="./assets/github.png" alt="My Github profile" class="icon" />
+            </a>
+        </div>
+
+    </section>
+
+    <section id="About">
+        <h1 class="title">About Me</h1>
+        <p class="section__text__p1"> <br>Hi, I'm a 4th year Computer Science student at SFU. I'm passionate about Software engineering,
+            Full Stack Development, and analytics. I'm passionate about learning new skills and techniques that can help me grow as a developer. 
+        </p>
+    </section>
+
+    <section id="Projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+          <div class="projects">
+
+            <div class="project-container">
+              <div class="article-container">
+                <img
+                  src="./assets/SAM.jpg"
+                  alt="SAM-For-Medical-Imaging"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="project-title">Segmented Medical Image Viewer</h2>
+              <div class="btn-container">
+                <a href="https://github.com/rkong04/SAM-For-Medical-Imaging" target="_blank">
+                    <button class="btn btn-color-2">Github</button>
+                  </a>
+              </div>
+
             </div>
-            <div class="menu-links">
-                <li><a href="#Home" onclick="toggleMenu()">Home</a></li>
-                <li><a href="#About" onclick="toggleMenu()">About</a></li>
-                <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
+            
+            <div class="project-container">
+              <div class="article-container">
+                <img
+                  src="./assets/OSM.jpg"
+                  alt="OSM-Analysis"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="project-title">OSM Data Analysis</h2>
+              <div class="btn-container">
+                <a href="https://github.com/rkong04/OSM-Data-Analysis" target="_blank">
+                  <button class="btn btn-color-2">Github</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="project-container">
+              <div class="article-container">
+                <img
+                  src="./assets/mern.jpg"
+                  alt="MERN-App"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="project-title">Full Stack Workout App</h2>
+              <div class="btn-container">
+                <a href="https://github.com/rkong04/MERN-App" target="_blank">
+                  <button class="btn btn-color-2">Github</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="project-container">
+              <div class="article-container">
+                <img
+                src="./assets/2d.jpg"
+                alt="Java-game"
+                class="project-img"
+                />
+              </div>
+              <h2 class="project-title">2-D Java Game</h2>
+              <div class="btn-container">
+                <a href="https://github.com/rkong04/2D-Java-game" target="_blank">
+                  <button class="btn btn-color-2">Github</button>
+                </a>
+              </div>
             </div>
         </div>
-    </nav>
+    </section>
     <script src="script.js"></script>
     
 </body>
