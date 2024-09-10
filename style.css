@@ -182,8 +182,8 @@ section:not(#Home){
     justify-content: center;
     align-items: center;
     border-radius: 2rem;
-    width: 50rem;
-    height: 30rem;
+    width: 90%;
+    height: 90%;
   }
   
   .project-title {
